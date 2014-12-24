@@ -1,0 +1,32 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="vendor/modernizr.js"></script>
+  <script src="//use.typekit.net/jgl1mah.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+  <main role="main">
+    <header>
+      <h1 class="logo" role="heading"><a href="http://www.eldestdaughter.com">eldest<strong>daughter</strong><sup>&trade;</sup></a></h1>
+    </header>
+    <form name="loginform" onSubmit="return validateForm();" action="index.html" method="get" role="form">
+      <fieldset class="login">
+        <label for="username"class="hidden">Username</label>
+        <input type="text" id="username" name="user" placeholder="Username" aria-required="true" tabindex=1 required autofocus>
+        <label for="password" class="hidden">Password</label>
+        <input type="password" name="pword" placeholder="Password" aria-required="true" tabindex=2 required>
+        <button name="login" tabindex=3 role="button">Login</button>
+      </fieldset>
+    </form>
+  </main>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
